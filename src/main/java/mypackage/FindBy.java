@@ -11,7 +11,7 @@ import java.lang.annotation.Target;
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface FindBy {
-    String name() default "chandan";
+    String name() default "Peter";
     int age() default 28;
     boolean young() default true;
 }

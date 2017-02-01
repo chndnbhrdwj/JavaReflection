@@ -5,7 +5,7 @@ package mypackage;
  */
 public class MyAnotherClass {
 
-    @mypackage.FindBy(age = 13)
+    @FindBy(age = 13)
     private String asd;
 
 }
