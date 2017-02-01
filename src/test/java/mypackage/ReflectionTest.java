@@ -11,7 +11,7 @@ public class ReflectionTest {
 
     @Test
     public void testReflection(){
-        Class aClass= MyAnotherClass.class;
+        Class aClass = AnnotatedClass.class;
         Field[] fields= aClass.getDeclaredFields();
         for(Field field: fields){
             FindBy a=field.getAnnotation(FindBy.class);
